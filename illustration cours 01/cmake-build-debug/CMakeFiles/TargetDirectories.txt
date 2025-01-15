@@ -1,3 +1,0 @@
-/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration cours 01/cmake-build-debug/CMakeFiles/illustration_cours_01.dir
-/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration cours 01/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration cours 01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
