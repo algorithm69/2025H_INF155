@@ -1,0 +1,1 @@
+Ce dépôt public contient les contenus des codes fait en classe (illustration de cours, correction de laboratoires, etc.) avec les étudiants du cours de INF155 à la session d'hiver 2025, à l'École de Technologie Supérieure.
