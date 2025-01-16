@@ -8,7 +8,7 @@
 
 //  Taux de taxes en %
 #define TAUX_TPS 5
-#define TAUX_TVQ 
+#define TAUX_TVQ 9.975
 
 int main(void) {
     //  Declaration des variables
@@ -20,7 +20,7 @@ int main(void) {
     scanf("%f", &montant_brut);
 
     //  Calculs
-    tps = montant_brut * 6 / 100;
+    tps = montant_brut * TAUX_TPS / 100;
     tvq = (montant_brut + tps) * TAUX_TVQ / 100;
     montant_net = montant_brut + tps + tvq;
 
