@@ -1,0 +1,10 @@
+/home/stephane/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/stephane/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S "/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration du cours 02" -B "/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration du cours 02/cmake-build-debug"
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (2.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration du cours 02/cmake-build-debug

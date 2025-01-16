@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "illustration_du_cours_02",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "illustration_du_cours_02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-illustration_du_cours_02-Debug-ba5fb547c249d4a2417c.json",
+					"name" : "illustration_du_cours_02",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration du cours 02/cmake-build-debug",
+		"source" : "/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/illustration du cours 02"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
