@@ -74,35 +74,35 @@ void question02() {
 }
 
 void question03() {
-//  TODO
+    //  TODO
 }
 
 void question04() {
-
+    //  TODO
 }
 
 void question05() {
-
+    //  TODO
 }
 
 void question06() {
-
+    //  TODO
 }
 
 void question07() {
-
+    //  TODO
 }
 
 void question08() {
-
+    //  TODO
 }
 
 void question09() {
-
+    //  TODO
 }
 
 void question10() {
-
+    //  TODO
 }
 
 int main(void) {
@@ -118,18 +118,4 @@ int main(void) {
     question10();
 
     return 0;
-}
-
-
-void test_time() {
-    time_t s = time(NULL);
-    while (time(NULL) < s + 1);
-    s++;
-
-    struct timespec start, end;
-    clock_gettime(CLOCK_MONOTONIC, &start);
-    while (time(NULL) < s + 1);
-    clock_gettime(CLOCK_MONOTONIC, &end);
-    double elapsed = (end.tv_sec - start.tv_sec) + (end.tv_nsec - start.tv_nsec) / 1.0e9;
-    printf("Elapsed time: %.9f seconds\n", elapsed);
 }
