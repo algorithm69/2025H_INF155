@@ -77,16 +77,58 @@ void question03() {
     //  TODO
 }
 
+//  ----------------------------------- Question 4 -----------------------------------
+int nb_chiffres(int n) {
+
+}
+
 void question04() {
-    //  TODO
+    //  saisie des donnnees
+    int n;
+    printf("Entrez un nombre : ");
+    scanf("%d", &n);
+
+    //  calcul
+    int chiffres = nb_chiffres(n);
+
+    //  affichage
+    printf("Le nombre %d est constitue de %d chiffres.\n", n, chiffres);
+}
+
+//  ----------------------------------- Question 5 -----------------------------------
+int chiffre_pos(int n, int pos) {
 }
 
 void question05() {
-    //  TODO
+    //  saisie des donnnees
+    int n, pos;
+    printf("Entrez un nombre : ");
+    scanf("%d", &n);
+    printf("Enteez une position : ");
+    scanf("%d", &pos);
+
+    //  calcul
+    int chiffre = chiffre_pos(n, pos);
+
+    //  affichage
+    printf("Le chiffre a la position %d de %d est %d.\n", pos, n, chiffre);
+}
+
+//  ----------------------------------- Question 6 -----------------------------------
+int somme_chiffres(int n) {
 }
 
 void question06() {
-    //  TODO
+    //  saisie des donnnees
+    int n;
+    printf("Entrez un nombre : ");
+    scanf("%d", &n);
+
+    //  calcul
+    int somme = somme_chiffres(n);
+
+    //  affichage
+    printf("La somme des chiffres du nombre %d est %d.\n", n, somme);
 }
 
 void question07() {
