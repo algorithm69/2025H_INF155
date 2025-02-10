@@ -1,0 +1,3 @@
+/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/pratique pour lab 2 note/cmake-build-debug/CMakeFiles/pratique_pour_lab_2_note.dir
+/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/pratique pour lab 2 note/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/pratique pour lab 2 note/cmake-build-debug/CMakeFiles/rebuild_cache.dir

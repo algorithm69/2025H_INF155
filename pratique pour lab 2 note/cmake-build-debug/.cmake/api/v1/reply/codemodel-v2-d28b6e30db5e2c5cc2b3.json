@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pratique_pour_lab_2_note",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pratique_pour_lab_2_note::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pratique_pour_lab_2_note-Debug-8e4cda4132551443f684.json",
+					"name" : "pratique_pour_lab_2_note",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/pratique pour lab 2 note/cmake-build-debug",
+		"source" : "/home/stephane/MEGA/ETS/INF155 - C/Hiver 2025/Labos INF155/pratique pour lab 2 note"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
