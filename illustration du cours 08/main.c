@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 #include "complexes.h"
 
-int main(void) {
+void test_module() {
     //  test de la fonction module
     printf("module : module(1, 1) = %lf\n", module(1, 1));
 
@@ -18,7 +19,23 @@ int main(void) {
     addition(1, 3, 5, -3, &re, &im);
     printf("addition : complexe = (%lf; %lf)\n", re, im);
 
-    mu
+}
+
+void test_fgets() {
+    char chaine[100];
+
+    printf("Dites quelque chose ? ");
+    fgets(chaine, 100, stdin);
+
+    int l = strlen(chaine);
+
+    //  remplacer le caractere '\n' par un zero de fin de chaine
+    chaine[l - 1] = '\0';
+
+    printf("|%s|", chaine);
+}
+
+int main(void) {
 
     return 0;
 }
