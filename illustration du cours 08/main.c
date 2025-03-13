@@ -18,7 +18,6 @@ void test_module() {
     //  test de la fonction addition
     addition(1, 3, 5, -3, &re, &im);
     printf("addition : complexe = (%lf; %lf)\n", re, im);
-
 }
 
 void test_fgets() {
@@ -35,7 +34,8 @@ void test_fgets() {
     printf("|%s|", chaine);
 }
 
-int main(void) {
-
-    return 0;
+void main(void) {
+    test_module();
+    test_fgets();
 }
+
