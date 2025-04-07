@@ -53,10 +53,31 @@ void test_groupe() {
     groupe_supprimer(groupe);
 }
 
+void test_sauvegarde_etudiant() {
+    t_etudiant *toto = etudiant_creer_etudiant(38, "toto");
+    etudiant_ajouter_note(toto, 79);
+    etudiant_ajouter_note(toto, 93);
+    etudiant_ajouter_note(toto, 86);
+    etudiant_ajouter_note(toto, 96);
+
+    FILE *fichier = fopen("etudiant.txt", "w");
+    etudiant_sauver(toto, fichier);
+    fclose(fichier);
+
+    t_etudiant *titi = etudiant_creer_etudiant(-1, "AA");
+    fichier = fopen("etudiant.txt", "r");
+    etudiant_restaurer1(titi, fichier);
+    fclose(fichier);
+
+    fichier = fopen("etudiant.txt", "r");
+    t_etudiant *tata = etudiant_restaurer2(fichier);
+    fclose(fichier);
+}
+
 //  Fonction principale
 //  -------------------
 void main(void) {
 //    test_etudiant();
-
-    test_groupe();
+//    test_groupe();
+    test_sauvegarde_etudiant();
 }

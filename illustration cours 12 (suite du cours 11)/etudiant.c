@@ -106,3 +106,59 @@ void etudiant_supprimer(t_etudiant *etu) {
 bool est_correcte(int note) {
     return note >= 0 && note <= 100;
 }
+
+int etudiant_sauver(t_etudiant *etu, FILE *fichier) {
+    fprintf(fichier, "%d\n", etu->id);
+    fprintf(fichier, "%s\n", etu->nom);
+    fprintf(fichier, "%d\n", etu->nb_notes);
+    for (int i = 0; i < etu->nb_notes; i++) {
+        fprintf(fichier, "%lf ", etu->notes[i]);
+    }
+    fprintf(fichier, "\n");
+}
+
+void etudiant_restaurer1(t_etudiant *etu, FILE *fichier) {
+    fscanf(fichier, "%d", &etu->id);
+
+    char tampon[1000];
+    fscanf(fichier, "%s", tampon);
+    if (strlen(etu->nom) < strlen(tampon)) {
+        free(etu->nom);
+        etu->nom = malloc(strlen(tampon) + 1);
+    }
+    strcpy(etu->nom, tampon);
+
+    etu->nb_notes = 0;
+    free(etu->notes);
+    etu->notes = NULL;
+
+    int nb_notes;
+    fscanf(fichier, "%d", &nb_notes);
+
+    for (int i = 0; i < nb_notes; i++) {
+        double note;
+        fscanf(fichier, "%lf", &note);
+        etudiant_ajouter_note(etu, note);
+    }
+}
+
+t_etudiant *etudiant_restaurer2(FILE *fichier) {
+    int id;
+    fscanf(fichier, "%d", &id);
+
+    char nom[1000];
+    fscanf(fichier, "%s", nom);
+
+    t_etudiant *etu = etudiant_creer_etudiant(id, nom);
+
+    int nb_notes;
+    fscanf(fichier, "%d", &nb_notes);
+
+    for (int i = 0; i < nb_notes; i++) {
+        double note;
+        fscanf(fichier, "%lf", &note);
+        etudiant_ajouter_note(etu, note);
+    }
+
+    return etu;
+}

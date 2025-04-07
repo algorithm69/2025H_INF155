@@ -31,4 +31,10 @@ double etudiant_calculer_moyenne(t_etudiant *etu);
 
 void etudiant_supprimer(t_etudiant *etu);
 
+int etudiant_sauver(t_etudiant *etu, FILE *fichier);
+
+void etudiant_restaurer1(t_etudiant *etu, FILE *fichier);
+
+t_etudiant *etudiant_restaurer2(FILE *fichier);
+
 #endif //ILLUSTRATION_COURS_10_ETUDIANT_H
