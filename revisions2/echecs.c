@@ -66,14 +66,14 @@ void afficher(t_echiquier e) {
                     printf("Q");
                     break;
                 default:
-                    printf(" ");
+                    printf(".");
             }
             if (e[l][c] >= 10) {
                 printf("n");
             } else if (e[l][c] >= 1) {
                 printf("b");
             } else {
-                printf(" ");
+                printf(".");
             }
             printf(" ");
         }
